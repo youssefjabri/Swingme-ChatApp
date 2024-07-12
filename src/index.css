@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+
+
+:root {
+    --font-sora: "Sora", sans-serif;
+    --font-code: "Source Code Pro", monospace;
+    --font-grotesk: "Space Grotesk", sans-serif;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background: #ad6affb9;
+}
+
+.t::selection,.caption::selection {
+    background: #ad6affb9;
+    color: white;
+}
+
+
+@layer base {
+    body {
+        @apply font-sans bg-n-8 text-n-1 text-base;
+    }
+}
+@media (max-width: 400px) {
+  .id-2-title {
+    font-size: 1.275rem; /* Ajustez la taille de police selon vos besoins */
+  }
+}
+
