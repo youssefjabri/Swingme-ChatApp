@@ -8,7 +8,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies](#technologies)
-- [License](#license)
   
 ## Features
 
@@ -22,11 +21,11 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/youssefjabri/Swingme.git
+   git clone https://github.com/youssefjabri/Swingme-ChatApp.git
    ```
 2. **Navigate to the project directory:**
    ```sh
-   cd swingme
+   cd Swingme-ChatApp
    ```
 3. **Install dependencies:**
    ```sh
@@ -53,11 +52,3 @@ Once the application is running, open your browser and navigate to ` http://loca
 - **Tailwind CSS**: Utility-first CSS framework for styling.
 - **Scroll-lock**: Library for managing scroll locking.
 - **React Icons**: Icon library for adding icons to the application.
-
-## Contributing
-
-Contributions are welcome! If you have any ideas, suggestions, or bug reports, feel free to open an issue or submit a pull request. Please make sure to follow the [contributing guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for more details.
